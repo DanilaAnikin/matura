@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter+Tight:wght@400;500;600&display=swap');
+
+:root {
+  --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+  --font-crimson: 'Crimson Pro', Georgia, serif;
+  --font-inter-tight: 'Inter Tight', system-ui, sans-serif;
+}
+
+html, body {
+  background-color: #F5F1E8;
+  color: #1A1612;
+  font-family: var(--font-crimson);
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+@media (min-width: 640px) {
+  html, body {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 768px) {
+  html, body {
+    font-size: 18px;
+  }
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 20% 80%, rgba(168, 132, 60, 0.04) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(122, 31, 46, 0.03) 0%, transparent 50%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.15 0 0 0 0 0.10 0 0 0 0 0.05 0 0 0 0.025 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-cormorant);
+  letter-spacing: -0.01em;
+}
+
+.font-display { font-family: var(--font-cormorant); }
+.font-body { font-family: var(--font-crimson); }
+.font-ui { font-family: var(--font-inter-tight); }
+
+/* Decorative ornament */
+.ornament::before,
+.ornament::after {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1px;
+  background: currentColor;
+  vertical-align: middle;
+  opacity: 0.4;
+  margin: 0 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .ornament::before,
+  .ornament::after {
+    width: 2.5rem;
+    margin: 0 1rem;
+  }
+}
+
+/* Pretty selection */
+::selection {
+  background: #7A1F2E;
+  color: #F5F1E8;
+}
+
+/* Card */
+.card {
+  background: #FAF7EE;
+  border: 1px solid rgba(200, 184, 152, 0.5);
+  box-shadow: 0 1px 0 rgba(26, 22, 18, 0.04), 0 8px 24px -16px rgba(26, 22, 18, 0.15);
+}
+
+.card-hover {
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-hover:hover {
+  border-color: rgba(122, 31, 46, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 1px 0 rgba(26, 22, 18, 0.04), 0 16px 32px -16px rgba(26, 22, 18, 0.2);
+}
+
+/* Drop cap effect */
+.drop-cap::first-letter {
+  font-family: var(--font-cormorant);
+  font-size: 3em;
+  line-height: 0.9;
+  font-weight: 600;
+  float: left;
+  margin-right: 0.375rem;
+  margin-top: 0.1em;
+  color: #7A1F2E;
+}
+
+@media (min-width: 640px) {
+  .drop-cap::first-letter {
+    font-size: 4em;
+    margin-right: 0.5rem;
+  }
+}
+
+/* Number badges */
+.book-number {
+  font-family: var(--font-cormorant);
+  font-style: italic;
+  color: #A8843C;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
+}
+
+/* Subtle button */
+.btn {
+  font-family: var(--font-inter-tight);
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  padding: 0.625rem 1rem;
+  border: 1px solid #1A1612;
+  background: #1A1612;
+  color: #F5F1E8;
+  transition: all 150ms;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #7A1F2E;
+  border-color: #7A1F2E;
+}
+.btn-ghost {
+  background: transparent;
+  color: #1A1612;
+}
+.btn-ghost:hover {
+  background: #1A1612;
+  color: #F5F1E8;
+}
+
+@media (min-width: 640px) {
+  .btn {
+    padding: 0.625rem 1.25rem;
+  }
+}
+
+/* Answer button (quiz) */
+.answer {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(200, 184, 152, 0.7);
+  background: #FAF7EE;
+  font-family: var(--font-crimson);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 150ms;
+}
+.answer:hover:not(:disabled) {
+  border-color: #1A1612;
+  background: #fff;
+}
+.answer.correct {
+  background: #E8F0E3;
+  border-color: #5A7A3F;
+  color: #2C3D1F;
+}
+.answer.incorrect {
+  background: #F0E0E3;
+  border-color: #7A1F2E;
+  color: #4A1A22;
+}
+.answer:disabled {
+  cursor: default;
+}
+
+/* Flashcard flip */
+.flashcard {
+  perspective: 1500px;
+  cursor: pointer;
+}
+.flashcard-inner {
+  transform-style: preserve-3d;
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.flashcard.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+.flashcard-face {
+  backface-visibility: hidden;
+}
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+/* Subtle in animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn 400ms ease-out forwards; }
+.fade-in-delay-1 { animation: fadeIn 400ms 80ms ease-out backwards; }
+.fade-in-delay-2 { animation: fadeIn 400ms 160ms ease-out backwards; }
+.fade-in-delay-3 { animation: fadeIn 400ms 240ms ease-out backwards; }

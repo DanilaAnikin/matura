@@ -1,0 +1,892 @@
+=== ÚLOHA 1 ===
+Určete dvě po sobě jdoucí přirozená čísla tak, aby platilo: jestliže od rozdílu třetích mocnin těchto čísel odečteme rozdíl jejich druhých mocnin daných čísel,  dostaneme číslo 80.
+
+=== ÚLOHA 2 ===
+Jeden kus výrobku A přinesl zisk Kč 120,-, jeden kus výrobku B zisk Kč 100,-. Určete počet možností rozdělení výroby, očekáváme-li zisk  přesně 74 tisíc korun.
+
+=== ÚLOHA 3 ===
+Ve třídě je 32 studentů, z toho 12 plavců, 15 tenistů. 7 dětí hraje i tenis i plave. Kolik dětí hraje tenis nebo plave? Kolik dětí neplave ani nehraje tenis?
+
+=== ÚLOHA 4 ===
+Výsledek součtu ve dvojkové soustavě zapište v desítkové: 11101+10011
+
+=== ÚLOHA 5 ===
+Dokažte, že platí :
+∀ n∈N:  7 ( 2 n + 3 2n) →7 (2  n+1  +  3 2(n+1)).
+
+=== ÚLOHA 6 ===
+je-li číslo 20 racionální, pak je racionální i číslo 5 . Číslo 5 je však iracionální. Plyne z toho, že  20 není racionální?
+
+=== ÚLOHA 7 ===
+Kupujete na Slovensku svetr, který stojí 19 €. Ale máte u sebe jen tříeurové bankovky. Pokladník má pouze pětieurovky. Je možné za těchto podmínek nákup uskutečnit? Jak?            ( pomineme existenci příslušných bankovek, prostě předpokládáme, že takové existují)
+
+=== ÚLOHA 8 ===
+25% krásných žen je chytrých. Mezi chytrými je třetina krásných. 25% žen nejsou ani chytré ani krásné. Kolik procent žen ze všech je chytrých a krásných zároveň?
+
+=== ÚLOHA 9 ===
+Určete všechny dvojice přirozených čísel x, y, pro něž platí vztah 1x+1y=12. Dokažte, že jsou to všechny možnosti a jiné již neexistují.
+
+=== ÚLOHA 10 ===
+Dokažte, že pro ∀ n∈ N: 72n+2+32n+1  .
+
+=== ÚLOHA 11 ===
+určete, jak vypadá matice X, víte-li, že platí
+
+1-103-52+302262.0-111-21.X=-3-70-14
+
+=== ÚLOHA 12 ===
+Vyřešte soustavu rovnic Gaussovou eliminační metodou 
+
+2x1 +   3x2 +  2x3 –  x4 = 5
+
+2x1 + 14x2            - 8x4 =10
+
+3x1 -      x2  +  4x3+2x4 = 1
+
+=== ÚLOHA 13 ===
+S použitím Cramerova pravidla řešte soustavu rovnic
+
+ax   +   y    -   z    =  1
+
+   x   + ay   -   z    =  1
+
+  -x   +  y    + az   =  1
+
+=== ÚLOHA 14 ===
+Diskutujte řešitelnost dané soustavy        1x+1y+1z=9
+
+                                                                                        1x+1y+1u=11
+
+                                                                                        1x+1z+1u=13
+
+                                                                                        1y+1z+1u=15
+
+=== ÚLOHA 15 ===
+Řešte rovnici, kde X je neznámá matice, A,B jsou matice dané. Rozhodněte o možném typu matic.
+
+A  +   B .X  =  (  A – B ) . A
+
+=== ÚLOHA 16 ===
+Vyřešte soustavu rovnic Gaussovou eliminační metodou,λje reálný parametr:
+
+x  +  λy   =   1
+
+x  +   y   =   λ
+
+=== ÚLOHA 17 ===
+S použitím Cramerova pravidla řešte soustavu rovnic:
+
+x   -    3y               +  4u  =  -5
+
+x                - 2z      + 3u  =  -4
+
+3x  +  2y                - 5u  =   12
+
+4x  +  3y    -5z                =     5
+
+=== ÚLOHA 18 ===
+Diskutujte řešitelnost dané soustavy rovnic:
+
+x    -2y     +  z   +   u   =  1
+
+x    -2y     +  z    -   u   = -1
+
+x    -2y      + z    + 5u  =  5
+
+=== ÚLOHA 19 ===
+Dokažte :  ∀ n∈N:2 n2 → 2 n .
+
+=== ÚLOHA 20 ===
+Dokažte, že neexistuje uspořádaná dvojice celých čísel  x,y , která by byla řešením rovnice x3 + y3=13 x.y +2.
+
+=== ÚLOHA 21 ===
+Dokažte, že platí : ∀ n∈N: 2n+2 >2n+5 .
+
+=== ÚLOHA 22 ===
+Dokažte, že ∀ x∈R: x21+x4 ≤ 12 .
+
+=== ÚLOHA 23 ===
+Dokažte, že existuje trojúhelník, který má všechny výšky kratší než 1 cm a obsah větší než 1 milión cm2.
+
+=== ÚLOHA 24 ===
+Dokažte: 8+ 6 ≤2+ 8- 6 . Neodmocňujte!
+
+=== ÚLOHA 25 ===
+Dokažte, že rovnice 2x2- 5y2=  7    nemá řešení v oboru celých čísel.
+
+=== ÚLOHA 26 ===
+Dokažte, že každá konvergentní posloupnost má právě jednu limitu.
+
+=== ÚLOHA 27 ===
+Dokažte: ∀ n∈N: i=1n12i-1.2i+1= n2n+1
+
+=== ÚLOHA 28 ===
+Dokažte, že pro ∀ n∈N: 20,5.n.n-1 ≥n! .
+
+=== ÚLOHA 29 ===
+Řešte v oboru reálných čísel, a ∈Z je  parametr:
+
+a.x-1+ x.a-1≤a-x
+
+=== ÚLOHA 30 ===
+Řešte graficky danou rovnici s reálným parametrem p: x2-2x=p.
+
+=== ÚLOHA 31 ===
+Je dán systém funkcí. Určete ty, které mají definičním oborem všechny reálná čísla:
+
+                                                     y=6x-3x2-2x+p, p∈R, parametr.
+
+=== ÚLOHA 32 ===
+Je dána přímka p a rovina ϱ . Určete, pro který parametr a∈R bude přímka s rovinou rovnoběžná.
+
+P: x = 4 + t, y = 2 – t, z = 1 + 3t , t∈R
+
+ϱ: ax + 2y + z + 4 = 0.
+
+=== ÚLOHA 33 ===
+Řešte následující rovnici v R, c je parametr z R :
+
+x-c=x+c, c∈R
+
+=== ÚLOHA 34 ===
+Určete definiční obor funkce v závislosti na parametru b∈R:
+
+                                                             y=ex2-2bx+1x2-2bx+1
+
+=== ÚLOHA 35 ===
+Rameno AD lichoběžníku ABCD ( ABCD) má délku m cm. Jeho vrcholy A, B, C určují pravoúhlý trojúhelník. │AB│=10 cm, │BC│= 8 cm. Určete všechny možnosti pro parametr m  tak, aby daný lichoběžník existoval. Vezměte v potaz všechny možnosti pro zmíněný pravoúhlý trojúhelník.
+
+=== ÚLOHA 36 ===
+Vyšetřete vzájemnou polohu přímek p,q v závislosti na reálném parametru a:
+
+p: ax + 2y = 0
+
+q: a2x – 2y – 2a =0
+
+=== ÚLOHA 37 ===
+V R řešte rovnici:     3x2-3x-4=1x-4+1          .
+
+=== ÚLOHA 38 ===
+Mezi komplexními čísly z, která vyhovují nerovnosti z-25i≤15 , najděte to, které má nejmenší argument.
+
+=== ÚLOHA 39 ===
+Je dána funkce f. Načrtněte její graf. f: y=x2-4x-22  .
+
+Určete limx→2x2-4x-22    .
+
+=== ÚLOHA 40 ===
+Vyznačte množinu uspořádaných dvojic x,y ∈ RxR , pro které platí:
+
+x,y, x+2+y-1≤3
+
+=== ÚLOHA 41 ===
+V R  řešte nerovnici: x2-x-6x-3≤1    .
+
+=== ÚLOHA 42 ===
+Je dána funkce f. Načrtněte její graf, určete základní vlastnosti.f:y=sinx+2sinx .
+
+=== ÚLOHA 43 ===
+Upravte: 1+x21+x-1x+12
+
+=== ÚLOHA 44 ===
+Řešte soustavu rovnic:
+
+x-1+y-5=1
+
+                                                             y=5+x-1
+
+=== ÚLOHA 45 ===
+V R řešte nerovnici:
+
+x2-7x+122x2+4x+5>0
+
+=== ÚLOHA 46 ===
+V R řešte rovnici:
+
+x+x+x+x+…=x-3
+
+=== ÚLOHA 47 ===
+Řešte v C  převedením na součinový tvar (tj. řešení v algebraickém tvaru):
+
+x5+x4+x3+x2+x+1=0
+
+=== ÚLOHA 48 ===
+Najděte společné body kuželoseček x2+ y2- 4x + 4y + 4 = 0 a x2+ y2+ 6x + 4y + 4 = 0. Určete o jaké kuželosečky se jedná.
+
+=== ÚLOHA 49 ===
+V R řešte nerovnici:
+
+x2+1x>x2x+1
+
+=== ÚLOHA 50 ===
+V R řešte rovnici:
+
+x+3x-3+4x-3x+3=4
+
+=== ÚLOHA 51 ===
+Řešte v C převedením na součinový tvar (tj. řešení v  algebraickém tvaru):
+
+x6-1=0
+
+=== ÚLOHA 52 ===
+Kořeny x1,x2 rovnice    x2 -3kx +k2 = 0  vyhovují vztahu   x12 + x22 = 1,75. Určete k.
+
+( návod  : a2 + b2 = (a + b )2 – 2ab  )
+
+=== ÚLOHA 53 ===
+Načrtněte graf funkce f. Určete H, stanovte monotonii, najděte limitu v bodě 0.
+
+f:y=x.x-2+sgnx
+
+Pro která p ∈ R má rovnice x.x-2+sgnx=p dvě řešení?
+
+=== ÚLOHA 54 ===
+a) **Graficky** najděte obor pravdivosti dané nerovnice x-3≥x4.
+
+b)Najděte graf následující funkce, popište vlastnosti. Zjistěte, na jakém intervalu  k  ní  existuje inverzní funkce a určete její předpis a vlastnosti:   y=x+25-1 .
+
+=== ÚLOHA 55 ===
+Trajektorie tělesa je dána parametricky: x=5.sint, y=2.cost, t∈R. Určete rovnici                                                                                                  
+
+                     dráhy y = y(x). Nakreslete ji a popište její vlastnosti.
+
+=== ÚLOHA 56 ===
+V pravoúhlé soustavě souřadnic znázorněte množinu C=A∩B.
+
+A= x,y∈RxR, x.y-2≤0
+
+                                                      B=x,y∈RxR,x-y≤1
+
+=== ÚLOHA 57 ===
+Načrtněte graf funkce g. Určete H, stanovte monotonii, určete limity v nevlastních bodech a v bodech nespojitosti.
+
+g:y=sgnx2-x-6+2
+
+=== ÚLOHA 58 ===
+**Graficky** najděte obor pravdivosti dané nerovnice x6≥x-4 .
+
+b)Najděte graf následující funkce, popište její vlastnosti. Zjistěte, na jakém intervalu  k ní existuje inverzní funkce a pak určete její předpis a vlastnosti : y=x-6-3+4 .
+
+=== ÚLOHA 59 ===
+Trajektorie tělesa je dána parametricky: x=3.sint-1, y=3.cost+2, t∈R. Určete rovnici dráhy y = y(x). Nakreslete ji a popište její vlastnosti.
+
+=== ÚLOHA 60 ===
+V pravoúhlé soustavě souřadnic znázorněte množinu C=A∩B.
+
+A=x,y∈RxR,x.y+3≥0
+
+B=x,y∈RxR, x+y≤2
+
+=== ÚLOHA 61 ===
+Je dána funkce f:y=3x3-7x2-7x+3. Odhadněte průběh, najděte průsečíky s osami a limity v nevlastních bodech.
+
+=== ÚLOHA 62 ===
+Najděte všechna řešení v R: x4-x3+x2-x+1=0.
+
+=== ÚLOHA 63 ===
+Řešte nerovnici v C: x3-5x2-x≥-5.
+
+=== ÚLOHA 64 ===
+Dokažte, že aspoň jeden kořen rovnice 7x5-10x3+5x-1=0 je z intervalu (0,1).
+
+=== ÚLOHA 65 ===
+Je dána funkce f:y=6x3+43x2+43x+6. Odhadněte průběh, najděte průsečíky s osami a limity v nevlastních bodech.
+
+=== ÚLOHA 66 ===
+Najděte všechna řešení v R:2x4+3x3-16x2+3x+2=0.
+
+=== ÚLOHA 67 ===
+Řešte nerovnici v C: x3-4x2-4x≥-16.
+
+=== ÚLOHA 68 ===
+Dokažte, že aspoň jeden kořen rovnice x7-2x5+3x2-x-580=0 je z intervalu (2,3).
+
+=== ÚLOHA 69 ===
+Graficky i numericky řešte:
+
+fx=32                fx= sin2x-π4
+
+=== ÚLOHA 70 ===
+Najděte množinu všech x, pro která platí v intervalu 0,π4
+
+1-cos2x+sin2x1+cos2x+sin2x≤1
+
+=== ÚLOHA 71 ===
+Najděte odchylku tečny funkce g v bodě G od kladné části osy x :
+
+gx:y=1-x2+ arcsin x
+
+G12,y
+
+=== ÚLOHA 72 ===
+Vypočtěte velikost plochy mezi funkcí cos x, osou x a přímkami x=π4,x=2π3.
+
+=== ÚLOHA 73 ===
+Graficky i numericky řešte:
+
+gx=-12                gx= sin3x+π6
+
+=== ÚLOHA 74 ===
+Najděte množinu všech x, pro která platí v intervalu -π,π
+
+tg 2x .tgxtg 2x-tg x≤1-sin3x+cos3xcos x+sin x
+
+=== ÚLOHA 75 ===
+Najděte odchylku tečny funkce h v bodě H od kladné části osy x :
+
+hx:y= arcsin1-4x
+
+H18,y
+
+=== ÚLOHA 76 ===
+Vypočtěte velikost plochy mezi funkcí sin x, osou x a přímkami x=π6,x=5π4.
+
+=== ÚLOHA 77 ===
+Řešte v R:
+
+925x.12527x-1=log 8log32
+
+=== ÚLOHA 78 ===
+Vypočtěte 12xdx. Hledejte tu primitivní funkce F, jejíž graf prochází bodem e,-14. Určete DF, HF, průsečíky s osami. Nakreslete graf.
+
+=== ÚLOHA 79 ===
+Řešte v R soustavu rovnic, x0:
+
+xx+y=yx-y
+
+x2y=1
+
+=== ÚLOHA 80 ===
+Řešte rovnici v R:
+
+                                                                   logx5.5-54=logx52.
+
+=== ÚLOHA 81 ===
+Řešte v R:
+
+                                                                            log2x+logx2=2.
+
+=== ÚLOHA 82 ===
+Je dána funkce f. Určete Df, Hf, příslušné limity a nakreslete graf.
+
+f:y=4x-12x-1
+
+=== ÚLOHA 83 ===
+Určete množinu v R, která vyhovuje nerovnici:
+
+log0,3log5x2-4x+4<0
+
+=== ÚLOHA 84 ===
+Řešte soustavu rovnic s neznámými x,y,  pro které platí x>0,y>0.n∈N
+
+xx+y=yn
+
+yx+y=x2nyn
+
+=== ÚLOHA 85 ===
+Vypočtěte 3535……     .
+
+=== ÚLOHA 86 ===
+Určete n-tý člen dané posloupnosti zadané rekurentně. Dokažte MI.
+
+a1=12
+
+an+1=n+12n.n+2.an
+
+=== ÚLOHA 87 ===
+Řešte v R
+
+n=1∞16nx=3-1
+
+=== ÚLOHA 88 ===
+a) Absolutní výšky tónů akordu a1 –d2- fis2 –a2  tvoří aritmetickou posloupnost. Víte, že tónu a1 přísluší frekvence 435 Hz. Určete frekvence ostatních tónů v akordu.
+
+b)Určete úhel α v trojúhelníku, jehož strany tvoří geometrickou posloupnost s kvocientem 32.
+
+=== ÚLOHA 89 ===
+Upravte x.x3.4x3.8x3………..
+
+=== ÚLOHA 90 ===
+Určete n-tý člen dané posloupnosti zadané rekurentně. Dokažte MI.
+
+a1=3
+
+an+1=n+1.an
+
+=== ÚLOHA 91 ===
+Vyřešte v R:
+
+2x+4x+8x+………=1
+
+=== ÚLOHA 92 ===
+Určete aritmetickou posloupnost o třech členech se součtem 15, která přejde v geometrickou, když prostřední člen zmenším o jedničku.
+
+=== ÚLOHA 93 ===
+Vyšetřete pomocí desetibodového schématu průběh některé z následujících funkcí:
+
+f1:y=ex-1ex+1
+
+f2:y=3x2-x-2
+
+f3:y=sinx+cosx2
+
+f4:y=x2+1x2+2x+3
+
+=== ÚLOHA 94 ===
+A) Určete limx→0sinx1-cosx
+
+B) Najděte dydx:
+
+=== ÚLOHA 95 ===
+a.sinx2+bcosy2=0
+
+=== ÚLOHA 96 ===
+y=1-x2x2+13
+
+=== ÚLOHA 97 ===
+Vodorovná osa pružné tyče s pravoúhelníkovým průřezem , na jednom konci upevněné a na druhém zatížené, se zakřiví z polohy y=0 v čáru y=-b2a3x23a-x. a udává délku tyče, b je snížení koncového bodu. Najděte směrnici tečny pro x=2a3.
+
+=== ÚLOHA 98 ===
+Integrujte a najděte podmínky, za kterých to jde:      coslnxdx.
+
+=== ÚLOHA 99 ===
+Určete objem tělesa, které vznikne rotací křivky 1+sin2xsinx2 kolem osy x. Víte, že x∈π2,3π4.
+
+=== ÚLOHA 100 ===
+A) Určete limx→0sin5x-sin3xsinx
+
+B) Najděte dydx:
+
+=== ÚLOHA 101 ===
+y=x2+11-x2
+
+=== ÚLOHA 102 ===
+cosx-x.cosy=0
+
+=== ÚLOHA 103 ===
+Jestliže se při chemické reakci dvou látek za dobu t z počátečního množství a molů jedné i druhé hmoty proměnilo x molů, platí xa-x=kt. Určete rychlost reakce.
+
+=== ÚLOHA 104 ===
+Integrujte a najděte podmínky, za kterých to jde:      x.lnx-1dx.
+
+=== ÚLOHA 105 ===
+Určete objem tělesa, které vznikne rotací křivky sinx1+2cosx kolem osy x. Víte, že
+
+              x∈0,π2.
+
+=== ÚLOHA 106 ===
+Ustanovte:
+
+=== ÚLOHA 107 ===
+limx→2x2+3x-10x2-2x
+
+=== ÚLOHA 108 ===
+limx→0sinx1-cosx
+
+=== ÚLOHA 109 ===
+Vodorovná osa pružné tyče s pravoúhelníkovým průřezem , na jednom konci upevněné a na druhém zatížené, se zakřiví z polohy y=0 v čáru y=-b2a3x23a-x. a udává délku tyče, b je snížení koncového bodu. Najděte směrnici tečny pro x=2a3.
+
+=== ÚLOHA 110 ===
+Ze 64 zápalek máte sestavit pravoúhlý rovnoběžník maximálního obsahu. Jak bude vypadat?
+
+=== ÚLOHA 111 ===
+Najděte dydx:
+
+=== ÚLOHA 112 ===
+a.sinx2+bcosy2=0
+
+=== ÚLOHA 113 ===
+y=1-x2x2+13
+
+=== ÚLOHA 114 ===
+Ustanovte:
+
+limx→1x2+3x-44x2-3x-1
+
+limx→0sin5x-sin3xsinx
+
+=== ÚLOHA 115 ===
+Jestliže se při chemické reakci dvou látek za dobu t z počátečního množství a molů          
+
+              jedné i druhé hmoty proměnilo x molů, platí xa-x=kt. Určete rychlost reakce dxdt.
+
+=== ÚLOHA 116 ===
+Určete rozměry válcové  silážní jámy s objemem 27 m3, aby na vyzdění dna a stěn 
+
+              bylo třeba co nejméně materiálu.
+
+=== ÚLOHA 117 ===
+Najděte dydx:
+
+=== ÚLOHA 118 ===
+y=x2+11-x2
+
+=== ÚLOHA 119 ===
+cosx-x.cosy=0
+
+=== ÚLOHA 120 ===
+Najděte primitivní funkci k funkci 1x2-2x.
+
+=== ÚLOHA 121 ===
+Integrujte a najděte podmínky, za kterých to jde:      coslnxdx.
+
+=== ÚLOHA 122 ===
+Určete objem tělesa, které vznikne rotací křivky 1+sin2xsinx2 kolem osy x. Víte, že x∈π2,3π4.
+
+=== ÚLOHA 123 ===
+Vyřešte následující diferenciální rovnici:  dydx= 1+y22xy .
+
+=== ÚLOHA 124 ===
+Najděte primitivní funkci k funkci 5.x-1x-3x+2.
+
+=== ÚLOHA 125 ===
+Integrujte a najděte podmínky, za kterých to jde:      x.lnx-1dx.
+
+=== ÚLOHA 126 ===
+Určete objem tělesa, které vznikne rotací křivky sinx1+2cosx kolem osy x. Víte, že x∈0,π2.
+
+=== ÚLOHA 127 ===
+Vyřešte následující diferenciální rovnici:        sinx2.dydx+y=0.
+
+=== ÚLOHA 128 ===
+Jaký poloměr má kulová plocha opsaná jistému čtyřstěnu, jehož vrcholové hrany jsou                      
+
+              na sebe kolmé a mají délku a. Podstavná hrana měří 2a.
+
+=== ÚLOHA 129 ===
+Stanovte poměr objemů kužele a paraboloidu se společnou podstavou s poloměrem         
+
+               r  a výškou v.
+
+=== ÚLOHA 130 ===
+Řežte krychli ABCDEFGH s hranou a  rovinou KLM. K = SAE, L = SBC, M = SGH. Určete  
+
+              obvod řezu.
+
+=== ÚLOHA 131 ===
+Je dán pravidelný čtyřboký jehlan ABCDV. │AB│= a, │AV│= b. Určete d( A, VC).
+
+=== ÚLOHA 132 ===
+Je dána krychle ABCDEFGH s hranou a. Určete d (A, HS ), kde S je střed stěny BCGF.
+
+=== ÚLOHA 133 ===
+Stanovte poměr objemů  válce a paraboloidu se společnou podstavou s poloměrem r 
+
+             a výškou v.
+
+=== ÚLOHA 134 ===
+Je dán pravidelný čtyřstěn ABCV s hranou a. a) Určete jeho objem.
+
+             b) Sestrojte průsečnici rovin ABC a PQR, P∈AV, Q∈BV , R ∈CV.
+
+=== ÚLOHA 135 ===
+Kulová plocha má poloměr r. Je osvětlena z bodu od středu vzdáleného d. ( d>r). 
+
+              Stanovte vztahy mezi  d a r  tak, aby byla osvětlena právě třetina této kulové plochy.
+
+=== ÚLOHA 136 ===
+V trojúhelníku ABC platí C4,-1, rovnice přímek, na kterých leží výška a těžnice na 
+
+              stranu AC jsou                                            vb:2x-3y+12=0
+
+                                                                                                   tb:2x+3y=0
+
+                              Určete zbylé vrcholy trojúhelníka.
+
+=== ÚLOHA 137 ===
+Je dána úsečka AC, │AC│= 6cm. Sestrojte všechny trojúhelníky ABC se stranou AC, tb =                  
+
+                    2cm, vc = 3 cm.
+
+=== ÚLOHA 138 ===
+Pravoúhlý trojúhelník má přeponu délky 10 cm. Jeho strany jsou 3 po sobě jdoucí     
+
+              členy aritmetické posloupnosti. Určete úhel proti delší  z odvěsen.
+
+=== ÚLOHA 139 ===
+Dokažte, že součet vzdáleností libovolného vnitřního bodu rovnostranného  
+
+              trojúhelníka od stran tohoto trojúhelníka je pevné číslo, nezávislé na volbě vnitřního                           
+
+              bodu.
+
+=== ÚLOHA 140 ===
+Najděte rovnici výšky vb trojúhelníku ABC. A1,1, B5,3,C3,7. Určete plochu              
+
+              trojúhelníka.
+
+=== ÚLOHA 141 ===
+Je dána úsečka CP, │CP│= 3cm. Sestrojte všechny trojúhelníky ABC, pro které je CP 
+
+              výškou vc, b = 6cm, tb = 2cm.
+
+=== ÚLOHA 142 ===
+Vypočtěte poloměr kružnice k4 na obrázku. Platí r1= 10cm, r2=r3= 5cm.
+
+=== ÚLOHA 143 ===
+V zorném poli zaměřovacího zařízení vidíme z helikoptéry bod A na Zemi ve vzdálenosti 540 m, bod B je rovněž na Zemi 670 daleko od vrtulníku pod zorným úhlem 111° od bodu A. Jak vysoko je vrtulník nad Zemí? Považujte spojnici AB na Zemi za vodorovnou.
+
+=== ÚLOHA 144 ===
+Sestrojte obdélník ABCD, znáte-li u, a-b >0. u…úhlopříčka, a,b…strany
+
+=== ÚLOHA 145 ===
+Nad stranami rovnoběžníka jsou vně tohoto rovnoběžníka sestrojeny čtverce. Dokažte, že středy těchto čtverců jsou opět vrcholy čtverce.
+
+=== ÚLOHA 146 ===
+Mám  pozemek tvaru pravoúhlého trojúhelníku. Chci na něm stavbu tak, aby zastavěná plocha byla co největší. Požaduji základy tvaru čtverce nebo obdélníku. Vyjádřete percentuální zastavěnost.
+
+=== ÚLOHA 147 ===
+Je dán tětivový pětiúhelník. Poloměr opsané kružnice je r. Vrcholy dělí tuto kružnici v poměru 1:2:3:4:2. Určete plochu daného pětiúhelníku.
+
+=== ÚLOHA 148 ===
+Sestrojte všechny čtyřúhelníky, jsou-li dány úsečkou AD. │AD│= 4cm. Dále platí │AB│= 7cm, │BC│= 5cm, │CD│= 6cm. Přímka AC je osou úhlu BAD.
+
+=== ÚLOHA 149 ===
+V lichoběžníku ABCD je dáno při běžném značení a = 8cm, b = 5cm, β =60°, δ = 105°. Určete jeho plochu a obvod.
+
+=== ÚLOHA 150 ===
+Do půlkruhu o poloměru r vepište obdélník tak, aby jeho plocha byla maximální. Vyjádřete poměr ploch půlkruhu a obdélníku.
+
+=== ÚLOHA 151 ===
+Vyjádřete součin úhlopříček tětivového čtyřúhelníka pomocí jeho stran ( Ptolemaiova věta ef=ac+bd).
+
+=== ÚLOHA 152 ===
+Je dána přímka p, bod A, A p, d(A,p) = 1. Vyšetřete množinu M všech bodů X roviny, které mají tu vlastnost, že  d(X,p) = k. │AX│, k parametr , kR+.
+
+=== ÚLOHA 153 ===
+Sestrojte trojúhelník ABC, je-li dán parametricky stranou c, úhlem  a těžnicí tc.
+
+=== ÚLOHA 154 ===
+Napište rovnici množiny bodů K a pojmenujte její vlastnosti víte-li, že tyto body jsou stejně vzdáleny od bodu L 5,4 a od přímky x-y=0.
+
+=== ÚLOHA 155 ===
+Na hranici krychle ABCDEFGH najděte body, které mají od vrcholů A, B, G stejnou vzdálenost.
+
+=== ÚLOHA 156 ===
+Jsou dány dva různé body A,B. Určete množinu M všech bodů dotyku tečen vedených bodem A ke kružnicím se středem B ( r ≤ │AB│).
+
+=== ÚLOHA 157 ===
+Sestrojte trojúhelník ABC, je-li dán parametricky stranou c,  úhlem  a poloměrem kružnice vepsané ϱ.
+
+=== ÚLOHA 158 ===
+Napište rovnici množiny bodů M stejně vzdálených od bodu K -3,2 a od přímky x+y=0. Popište vlastnosti množiny M.
+
+=== ÚLOHA 159 ===
+Na hranici krychle ABCDEFGH najděte body, které mají od vrcholů C, D, E stejnou vzdálenost.
+
+=== ÚLOHA 160 ===
+Určete odchylku sousedních bočních stěn pravidelného čtyřbokého jehlanu, mají-li tvar rovnostranných trojúhelníků.
+
+=== ÚLOHA 161 ===
+Najděte vztah mezi přímkou p: 1-2t, 2t, t, t∈R a rovinou ϱ:2x-y+6z+7=0.
+
+=== ÚLOHA 162 ===
+Rovina řezu pravidelného trojbokého jehlanu prochází jedním vrcholem podstavy jehlanu a středy obou zbývajících pobočných hran. Víte, že tato rovina je kolmá k pobočné stěně. Stanovte poměr pláště jehlanu k obsahu jeho podstavy.
+
+=== ÚLOHA 163 ===
+Určete souřadnice bodu A souměrného podle roviny ρ: 2x-y+z-1=0 s bodem B[5;1;4].
+
+=== ÚLOHA 164 ===
+Určete odchylku protějších  bočních stěn pravidelného čtyřbokého jehlanu, mají-li tvar rovnostranných trojúhelníků.
+
+=== ÚLOHA 165 ===
+Najděte vztah mezi přímkou p: 1-2t, 2t, t, t∈R a rovinou ϱ:2x+y-2z+6=0.
+
+=== ÚLOHA 166 ===
+Rovina řezu pravidelného trojbokého jehlanu prochází jedním vrcholem podstavy jehlanu a středy obou zbývajících pobočných hran. Víte, že tato rovina je kolmá k pobočné stěně. Stanovte poměr pláště jehlanu k obsahu jeho podstavy.
+
+=== ÚLOHA 167 ===
+Určete bod M souměrný k bodu N[5;3;-1] podle přímky p(A,B), kde A[0;0;-3], B[-6;-2;1].
+
+=== ÚLOHA 168 ===
+Řešte parametrický systém úloh, které požadují konstrukci trojúhelníku ABC pomocí ta, tb, tc .
+
+=== ÚLOHA 169 ===
+Určete obraz bodu A v O(o): A→A´. A2,1, o:x-y-5=0.
+
+=== ÚLOHA 170 ===
+Jsou dány dvě protínající se kružnice k, m o nestejných poloměrech a bod D. Sestrojte všechny čtverce ABCD, pro které platí Am, Ck. Diskutujte počet řešení vzhledem k poloze bodu D a kružnic.
+
+=== ÚLOHA 171 ===
+Je dána úsečka AB. Sestrojte všechny lichoběžníky ABCD. │AB│= 6cm, AB││CD, │CD│= 3cm, │AD│= 4cm, │BC│= 5cm.
+
+=== ÚLOHA 172 ===
+Je dán obvod čtverce. Bod S dělí jeho úhlopříčku v poměru 1:3. Sestrojte všechny příčky ve čtverci, pro které platí, že S je jejich střed.
+
+=== ÚLOHA 173 ===
+Určete obraz bodu B v o(o): B→B´.B0,2,-2,o1-t,-2-t,-2+t,t∈R.
+
+=== ÚLOHA 174 ===
+Je dána kružnice k, přímka p. Sestrojte rovnostranný trojúhelník ABC. Víte, že Ak, Bp, CkCp.
+
+=== ÚLOHA 175 ===
+Dvě místa na různé straně řeky spojte nejkratší cestou. Podmínky úlohy: místa nejsou hned na březích, břehy jsou rovnoběžné a mostík musí být kolmý.
+
+=== ÚLOHA 176 ===
+Je dána přímka p, kružnice k, bod A. Ap  Ak. Sestrojte všechny úsečky  XY tak, aby Xp  Yk  │AY│=5.│AX│.
+
+=== ÚLOHA 177 ===
+Řešte Apolloniovu úlohu bpk s následujícími parametry:
+
+p…přímka, k(S,r)…kružnice, pk=∅, A…bod, Ap.
+
+=== ÚLOHA 178 ===
+Sestrojte kosodélník ABCD,  je-li dán ∢DAB, ∢ABD,AC.
+
+=== ÚLOHA 179 ===
+Určete délky stran a, b trojúhelníku ABC, je-li a o 1cm delší než b, va = 2,5cm, vb = 3cm.
+
+=== ÚLOHA 180 ===
+Řešte Apolloniovu úlohu ppk s následující parametry:
+
+a,b…různoběžné přímky, k…kružnice taková, že a je její sečna a b její tečna
+
+=== ÚLOHA 181 ===
+Sestrojte trojúhelník ABC, znáte-li při obvyklém značení , , tc.  , (0°,90°)
+
+=== ÚLOHA 182 ===
+Bodem uvnitř konvexního úhlu KVL veďte přímku tak, aby její úsek mezi rameny úhlu byl bodem M dělen v poměru 2:3.
+
+=== ÚLOHA 183 ===
+Dokažte, že spojnice pat dvou výšek ostroúhlého trojúhelníku odděluje z něho trojúhelník danému trojúhelníku podobný.
+
+=== ÚLOHA 184 ===
+Kružnice je sjednocením oblouků AB, BC, CA. Středové úhly jsou tři po sobě jsoucí členy aritmetické posloupnosti s diferencí 100°. Jsou i délky oblouků po sobě jdoucí členy aritmetické nebo geometrické posloupnosti?
+
+=== ÚLOHA 185 ===
+Trojúhelník ABC je rovnostranný. Napište rovnici kružnice vepsané tomuto trojúhelníku, víte-li, že A-6,0,B∈x,C∈y.
+
+=== ÚLOHA 186 ===
+Body A,B jsou průsečíky přímky p a kružnice k. Určete velikost obvodového úhlu příslušejícímu většímu oblouku AB. p:2x-y=0, k:x-22+y-92=10.
+
+=== ÚLOHA 187 ===
+Je dán pravoúhlý trojúhelník ABC s obvyklým značením. Sestrojte kružnici k(S,r) tak, aby platilo B∈k, S∈AB, AC  je tečnou hledané kružnice.
+
+=== ÚLOHA 188 ===
+Stanovte obvod útvaru ABCD na obrázku. Znáte r, 1, 2. α1=α2= rad.
+
+=== ÚLOHA 189 ===
+Najděte nejmenší vzdálenost bodu P13,1 od kružnice x2 + y2 - 18x – 12y +92 = 0.
+
+=== ÚLOHA 190 ===
+Body A,B jsou průsečíky přímky p a kružnice k. Určete velikost obvodového úhlu příslušejícímu menšímu oblouku AB. p:2x-y=0, k:x-22+y-92=10.
+
+=== ÚLOHA 191 ===
+Řešte Apolloniovu úlohu ppb s následujícími parametry:
+
+ dvě různoběžky a, b, A…bod, Aa  Ab
+
+=== ÚLOHA 192 ===
+Který z trojúhelníků EFX má maximální obsah?  Body E, F jsou ohniska elipsy 
+
+ e: 9x2+25y2-225=0, Xe. Určete jeho obsah a obvod.
+
+=== ÚLOHA 193 ===
+Hyperbola má asymptoty u1 : x + 2y = 0, u2: x – 2y = 0. Vrchol hyperboly je 0, -6. Napište její rovnici.
+
+=== ÚLOHA 194 ===
+Sestrojte graf funkce k : y = -x2 + 2│x│-1. Odečtěte z něj počet řešení rovnice 
+
+-x2 + 2│x│-1 = -1/x.
+
+=== ÚLOHA 195 ===
+Elipse x2 + 2y2 = 6 vepište analyticky čtverec.
+
+=== ÚLOHA 196 ===
+Který z trojúhelníků EFX má maximální obsah?  Body E, F jsou ohniska elipsy 
+
+e: x-229+y+1225=1, Xe. Určete jeho obsah a obvod.
+
+=== ÚLOHA 197 ===
+Sestrojte graf funkce h a odečtěte z něj počet řešení rovnice h(x) + x2 = 0.
+
+h:y=x-1x+1.
+
+=== ÚLOHA 198 ===
+K parabole y2 = 2px najděte její obraz ve středové souměrnosti podle ohniska F. Popište vlastnosti čtyřúhelníka, který je tvořen vrcholy obou parabol a jejich společnými body.
+
+=== ÚLOHA 199 ===
+Nakreslete a popište vlastnosti  kuželosečky 3x2 –y2 +12x – 2y + 14 = 0.
+
+=== ÚLOHA 200 ===
+Je dána kružnice k, přímka p a na ní bod T p. Najděte kružnici, která se dotýká k a přímka p je její tečnou s bodem dotyku T.
+
+=== ÚLOHA 201 ===
+K parabole x2=12y veďte bodem Q1,-2 tečnu.
+
+=== ÚLOHA 202 ===
+Určete rovnici tečny a normály křivky popsané rovnicí x2 -2x+ 2xy – y2 =0 v bodě T2,0.
+
+=== ÚLOHA 203 ===
+Kolmice sestrojená v bodě dotyku tečny a kružnice prochází středem kružnice. Dokažte (analyticky).
+
+=== ÚLOHA 204 ===
+Dokažte, že úsekový úhel je roven svou velikostí úhlu obvodovému.
+
+=== ÚLOHA 205 ===
+Jsou dány dvě kružnice k1(S1, r1), k2(S2, r2), S1  S2. Najděte jejich společné tečny.
+
+=== ÚLOHA 206 ===
+K elipse x24+y29=1 veďte tečnu rovnoběžnou s přímkou  9x+2.27y-15=0.
+
+=== ÚLOHA 207 ===
+Určete rovnici tečny a normály křivky popsané rovnicí xy – ln y = 1 v bodě xT,1.
+
+=== ÚLOHA 208 ===
+V Gaussově rovině zobrazte množinu všech zC, pro která platí zz+z≤1.
+
+=== ÚLOHA 209 ===
+Řešte v C: z5+ 6-63i=0.
+
+=== ÚLOHA 210 ===
+Sestavte kvadratickou rovnici jejíž kořeny jsou z1=cosπ3+isinπ3
+
+                                                                                   z2=cos5π3+isin5π3.
+
+=== ÚLOHA 211 ===
+Určete determinant matice1+i2-13+i-i10-12i.
+
+=== ÚLOHA 212 ===
+V Gaussově  rovině zobrazte množinu všech zC, pro která platí z≤2-2i301+i28.
+
+=== ÚLOHA 213 ===
+204.Řešte v C: z8+18=0 .
+
+=== ÚLOHA 214 ===
+205.Určete, kdy má následující rovnice právě jedno řešení. a…parametr, aC, xC:x2-2xa+3ax2+2x+1=1.
+
+=== ÚLOHA 215 ===
+Určete determinant matice3-i102i1+i1-12+i.
+
+=== ÚLOHA 216 ===
+Je dán pravidelný 20-ti úhelník A1....A20. Kolik trojúhelníků je jeho vrcholy určeno? Zcela náhodně jeden trojúhelník vyberu. Jaká je pravděpodobnost, že jeho vrcholy mají jen sudé indexy?
+
+=== ÚLOHA 217 ===
+Cestovní kancelář nabízí 124 zájezdů a jen 86 z nich splňuje kritérium pětihvězdičkového ubytování. Náhodně si vybere čtyři zájezdy. Jaká je pravděpodobnost, že aspoň dva nabízí luxusní ubytování?
+
+=== ÚLOHA 218 ===
+Během dne se v porodnici narodilo 10 dětí. Pravděpodobnost narození chlapce je
+
+ p = 0, 514.  Jaká je pravděpodobnost, že během tohoto dne se narodil v porodnici aspoň jeden chlapec.
+
+=== ÚLOHA 219 ===
+Jaká je pravděpodobnost, že čtyřmístné přirozené číslo sestavené náhodně a výhradně bez opakování z cifer 0, 2, 4, 6,  bude dělitelné čtyřmi?
+
+=== ÚLOHA 220 ===
+V zásilce 150 pytlů ořechů z Turecka je 5 pytlů se zkaženými ořechy, stejně jako v zásilce 250 pytlů ořechů z Afghánistánu. Jaká je pravděpodobnost , že náhodně vybraný pytel ze všech došlých pytlů obsahuje zkažené ořechy? Jak se bude tato pravděpodobnost lišit, vyberu-li nejdříve náhodně zásilku a pak teprve pytel?
+
+=== ÚLOHA 221 ===
+Je dán pravidelný 20-ti úhelník A1…A20. Kolik přímek je jeho vrcholy určeno? Zcela náhodně jednu přímku vyberu, jaká je pravděpodobnost, že bude oindexována lichými čísly?
+
+=== ÚLOHA 222 ===
+V bazarech v České republice je celkem nabízeno 5 miliónů ojetých aut. 500 000 jich je však zatíženo exekucí a tím jsou neprodejné. V nevelkém okresním městě  P. stojí v prodejnách s ojetými vozy  celkem  750 aut. Jaká je pravděpodobnost, že jich je 500 prodejných?
+
+=== ÚLOHA 223 ===
+Úspěšnost Jakuba Kováře, reprezentačního hokejového brankaře, že vychytá střely ruských útočníků, je v letošním roce 95,75%. S jakou pravděpodobností nedostane v zápase na MS víc než 5 branek při 30 střelách na svou svatyni?
+
+=== ÚLOHA 224 ===
+V obchodě je 500 mýdel známé značky A a 20 z nich má poškozený obal. Současně je ve skladových zásobách 300 mýdel jiné známé značky B s 15 poškozenými kusy a 200 mýdel značky C s 50 poškozenými kusy.  Jaká je pravděpodobnost, že si přinesu domů mýdlo s poškozeným obalem? Jaká je pravděpodobnost, že vybrané mýdlo má poškozený obal, jestliže nejdříve vybereme náhodně značku mýdla  a teprve potom vybereme náhodně  mýdlo?
+
+=== ÚLOHA 225 ===
+Jaká je pravděpodobnost, že čtyřmístné přirozené číslo sestavené náhodně a výhradně  z cifer 0, 2, 4, 6,  bude dělitelné čtyřmi?
+
