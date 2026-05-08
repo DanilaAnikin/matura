@@ -1,8 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-const EXAM_DATE = new Date("2026-05-18T08:00:00");
+import {
+  DEFAULT_EXAM_DATE_VALUE,
+  formatExamDate,
+  getExamDate,
+  loadExamDateValue,
+  saveExamDateValue,
+} from "@/lib/exam-date";
 
 function daysUntil(date: Date): number {
   const now = new Date();
@@ -11,12 +16,38 @@ function daysUntil(date: Date): number {
 }
 
 export default function Home() {
-  const [days, setDays] = useState(0);
+  const [examDateValue, setExamDateValue] = useState(DEFAULT_EXAM_DATE_VALUE);
+  const [draftDateValue, setDraftDateValue] = useState(DEFAULT_EXAM_DATE_VALUE);
+  const [editingDate, setEditingDate] = useState(false);
+  const [days, setDays] = useState(() => daysUntil(getExamDate(DEFAULT_EXAM_DATE_VALUE)));
+
   useEffect(() => {
-    setDays(daysUntil(EXAM_DATE));
-    const t = setInterval(() => setDays(daysUntil(EXAM_DATE)), 60_000);
-    return () => clearInterval(t);
+    const storedDate = loadExamDateValue();
+    setExamDateValue(storedDate);
+    setDraftDateValue(storedDate);
   }, []);
+
+  useEffect(() => {
+    const examDate = getExamDate(examDateValue);
+
+    setDays(daysUntil(examDate));
+    const t = setInterval(() => setDays(daysUntil(examDate)), 60_000);
+    return () => clearInterval(t);
+  }, [examDateValue]);
+
+  function saveDate(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const savedDate = saveExamDateValue(draftDateValue);
+    setExamDateValue(savedDate);
+    setDraftDateValue(savedDate);
+    setEditingDate(false);
+  }
+
+  function cancelDateEdit() {
+    setDraftDateValue(examDateValue);
+    setEditingDate(false);
+  }
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-10 md:py-16">
@@ -31,9 +62,60 @@ export default function Home() {
             {days <= 1 ? "" : days < 5 ? `dní zbývá` : "dní do maturity"}
           </span>
         </h1>
-        <div className="ornament inline-block font-display italic text-dust mt-6">
-          18. května 2026
-        </div>
+        {editingDate ? (
+          <form
+            onSubmit={saveDate}
+            className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3 font-ui"
+          >
+            <input
+              type="date"
+              value={draftDateValue}
+              onChange={(event) => setDraftDateValue(event.target.value)}
+              className="w-full max-w-[14rem] border border-taupe/70 bg-cream px-3 py-2 text-sm text-ink outline-none transition-colors focus:border-burgundy"
+              aria-label="Datum maturity"
+              required
+            />
+            <div className="flex items-center gap-2">
+              <button type="submit" className="btn text-sm px-4 py-2">
+                Uložit
+              </button>
+              <button
+                type="button"
+                onClick={cancelDateEdit}
+                className="btn btn-ghost text-sm px-4 py-2"
+              >
+                Zrušit
+              </button>
+            </div>
+          </form>
+        ) : (
+          <div className="mt-6 flex items-center justify-center gap-2">
+            <div className="ornament inline-block font-display italic text-dust">
+              {formatExamDate(examDateValue)}
+            </div>
+            <button
+              type="button"
+              onClick={() => setEditingDate(true)}
+              className="inline-flex h-9 w-9 items-center justify-center text-dust transition-colors hover:text-burgundy focus:outline-none focus:ring-2 focus:ring-burgundy/40"
+              aria-label="Upravit datum maturity"
+              title="Upravit datum maturity"
+            >
+              <svg
+                className="h-4 w-4"
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.8"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path d="M12 20h9" />
+                <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z" />
+              </svg>
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Three modules */}
