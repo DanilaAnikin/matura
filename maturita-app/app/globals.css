@@ -194,8 +194,10 @@ h1, h2, h3, h4 {
 .flashcard.flipped .flashcard-inner {
   transform: rotateY(180deg);
 }
-.flashcard-face {
+.flashcard-face,
+.flashcard-back {
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 .flashcard-back {
   transform: rotateY(180deg);
